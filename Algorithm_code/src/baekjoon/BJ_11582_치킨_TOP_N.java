@@ -37,9 +37,6 @@ public class BJ_11582_치킨_TOP_N {
 			System.out.print(chickenHouse[i] + " ");
 		}
 		
-		Arrays.toString(chickenHouse);
-		
-		
 	}
 	
 	public static void chickenHouseSort(int start, int end) {
