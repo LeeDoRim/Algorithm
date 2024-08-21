@@ -49,8 +49,8 @@ public class BJ_14550_마리오_파티 {
 				for (int j = 1; j < N+2; j++) { // 1 ~ N+1 보드
 					for (int k = 1; k <= S; k++) { // 각 칸에서 움직일 수 있는 자연수
 						if(j-k>=0 && dp[i-1][j-k] != Integer.MIN_VALUE){ // 이전 턴에서 이동 가능하면
-                            dp[i][j] = Integer.max( dp[i][j], dp[i-1][j-k]+map[j] );
-                        }
+                            				dp[i][j] = Integer.max( dp[i][j], dp[i-1][j-k]+map[j] );
+                        			}
 					}
 				}
 			}
