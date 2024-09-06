@@ -4,22 +4,21 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BJ_10951_AB4 {
+public class BJ_1152_단어의_개수 {
+	
+	static int count;
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st; 
-		String str;
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-		while ( (str = br.readLine()) != null ) {
-			st = new StringTokenizer(str);
-			int A = Integer.parseInt(st.nextToken());
-			int B = Integer.parseInt(st.nextToken());
-			
-			System.out.println(A+B);
-			
+		while ( st.hasMoreTokens() ) {
+			st.nextToken();
+			count++;
 		}
-			
+		
+		System.out.println(count);
+		
 	}
 
 }
