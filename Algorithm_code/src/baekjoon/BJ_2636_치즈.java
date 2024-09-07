@@ -63,8 +63,6 @@ public class BJ_2636_치즈 {
 				int ny = node.y + dy[i];
 				int nx = node.x + dx[i];
 				
-//				System.out.println("ny : " + ny + " nx : " + nx);
-				
 				if( ny < 0 || nx < 0 || ny >= height || nx >= width || visit[ny][nx] ) continue;
 				
 				visit[ny][nx] = true;
