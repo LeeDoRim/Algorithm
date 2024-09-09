@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BJ_1991_트래_순회 {
+public class BJ_1991_트리_순회 {
 	static int N;
 	static Node root = new Node('A', null, null);
 	
