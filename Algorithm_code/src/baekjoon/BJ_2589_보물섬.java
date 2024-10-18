@@ -75,3 +75,5 @@ public class BJ_2589_보물섬 {
     }
 
 }
+
+// 참고 : https://devtech-ocean.tistory.com/12
